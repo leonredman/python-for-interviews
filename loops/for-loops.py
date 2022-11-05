@@ -10,5 +10,9 @@ for i in range(2, 6):
   print(i)
 
 # to go in reverse we pass in a 3rd value of -1 because we going backwards(decrement) or -2 to go by 2
+# start at 5 and go down to 1 but not including 1 so stop at 2. -1 is the decrement amount
 for i in range(5, 1, -1):
   print(i)
+
+  # other languages have explicit loops, python is easier to type out
+  for (int i = 0; i < n; i++)
