@@ -7,4 +7,13 @@ print(arr)
 
 arr.sort(reverse=True)
 
-# paused 26:18 sorting
+
+# sorting strings by default will be by alphabetical order
+arrString = ["bob", "alice", "jane", "doe"]
+arrString.sort()
+print(arrString)
+
+#yeild ['alice', 'bob', 'doe' 'jane']
+
+# Custom sort (by length of string) an use a lambda
+arr.sort(key=lambda x: len(x))
