@@ -23,3 +23,21 @@ print(arrString)
 # 
 arr.sort(key=lambda x: len(x))
 # yeild ['alice', 'bob', 'doe', 'jame']
+
+# initiliaze lists - List Comprehension
+# to go through every value in range 5 and call that value i and then add that value
+# to the array - this is the short hand
+arr = [i for i in range(5)]
+print (arr)
+# yeild [0, 1, 2, 3, 4]
+
+# we can add to i
+arr = [i+i for i in range(5)]
+print (arr)
+# yeild [0,2,4,6,8]
+
+# 2-D Lists
+arr = [[0] * 4 for in range(4)]
+print (arr)
+# yeild an array with all zeros  this will build a grid of all zeros
+
