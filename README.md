@@ -41,3 +41,5 @@ https://www.youtube.com/watch?v=0K_eZGS5NsU
 - nested functions
 
 - classes
+
+This is the overall most python you need to know for coding interviews. You will start by looking up python syntax in the beginning, but as you solve more problems you will start to not even focus on the code and only the solutions. You dont have to master all of python for interviews as it is very deep, just the baisics for problem solving.
